@@ -30,15 +30,14 @@ print(len2)
 # index 012345
 #to print the character based on index number
 str = "MY IRISET"
-#str[4] ='@'
+#str[4] ='@' change of character by their index is not allowed in python
 ch = str[4]
 print(ch)
 print(str[7])
 print(str[6])
-#slicing part of the string
-str = "APNA IRISET"
-str1 = str 
-str2[1:4]
-str1[2:7]
-print(str1)
-print(str2)
+#slicing part of the string, used in machine learning,accessing the part of the string.
+str8 = "APNA IRISET"
+print(str8[1:4])
+print(str8[2:7])
+print(str[3:]) #this is accessing the string after 3rd index.
+print(str[3:len(str8)]) #this is also same as above, where it will read all indexes after 3 and print the full string
