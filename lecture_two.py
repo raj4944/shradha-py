@@ -39,5 +39,14 @@ print(str[6])
 str8 = "APNA IRISET"
 print(str8[1:4])
 print(str8[2:7])
-print(str[3:]) #this is accessing the string after 3rd index.
-print(str[3:len(str8)]) #this is also same as above, where it will read all indexes after 3 and print the full string
+print(str8[3:]) #this is accessing the string after 3rd index.
+print(str8[3:len(str8)]) #this is also same as above, where it will read all indexes after 3 and print the full string
+print(str8[:2])# this will print characters for index 0 and 1, that is MY
+
+#slicing by negative index
+print(str8[-3:]) #it will print SET from the string
+
+#string function
+str9 = "i am working in iriset"
+print(str9.endswith("ing"))
+print(str9.endswith("set"))
