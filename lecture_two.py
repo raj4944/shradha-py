@@ -48,5 +48,12 @@ print(str8[-3:]) #it will print SET from the string
 
 #string function
 str9 = "i am working in iriset"
-print(str9.endswith("ing"))
-print(str9.endswith("set"))
+print(str9.endswith("ing")) #this is false
+print(str9.endswith("set")) #this is true
+
+print(str9.capitalize())#capitalises the first letter of the string
+print(str9.replace("iriset", "office of DG IRISET")) # it replaces the letter or work or a complete sentence in the strin
+print(str9.find("o")) #it finds the 'o' in first available index
+print(str9.count("o"))
+print(str9.index("m"))
+print(str9.index("i"), str9.count("i"))
