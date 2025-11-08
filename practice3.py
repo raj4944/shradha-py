@@ -12,7 +12,10 @@ print(str.count("i"))
 
 #conditional statement
 print("if your age is greater than 18")
-age = 21
+#nesting
+age = 17
 if(age >= 18):
-    print("can vote and apply for certificate")
-    print("you can not vote and can not apply for certificate if you are less than 18 years")
+    if(age >=80):
+        print("can vote and apply for certificate")
+    else: 
+        print("you can not vote and can not apply for certificate if you are less than 18 years")
