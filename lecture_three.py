@@ -32,3 +32,14 @@ print(list1.sort(reverse=True))
 print(list1.sort)
 print(list1)
 
+#insert index in the list
+list2 = ['6', '8', '4', '3', '6', '7']
+print(list2)
+list2.reverse()
+print(list2)
+list2.insert(1,5)
+print(list2)
+list3 = (4, 6, 7, 3, 9, 2)
+print(list3)
+
+
