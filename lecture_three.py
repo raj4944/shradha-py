@@ -42,4 +42,7 @@ print(list2)
 list3 = (4, 6, 7, 3, 9, 2)
 print(list3)
 
-
+print("the following is an example of tuple")
+tup = (4, 6, 3, 8, 6, 9)
+print(tup.count(2))
+print(tup)
